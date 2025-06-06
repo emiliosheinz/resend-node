@@ -1,16 +1,9 @@
-import type * as React from 'react';
 import type { PostOptions } from '../../common/interfaces';
 import type { IdempotentRequest } from '../../common/interfaces/idempotent-request.interface';
 import type { RequireAtLeastOne } from '../../common/interfaces/require-at-least-one';
 import type { ErrorResponse } from '../../interfaces';
 
 interface EmailRenderOptions {
-  /**
-   * The React component used to write the message.
-   *
-   * @link https://resend.com/docs/api-reference/emails/send-email#body-parameters
-   */
-  react: React.ReactNode;
   /**
    * The HTML version of the message.
    *
